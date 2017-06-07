@@ -18,6 +18,7 @@
     "mysql": "*",
     "ng-annotate": "*",
     "redis": "*",
+    "redis-server": "^1.1.0",
     "request": "*",
     "requirejs": ">=2",
     "sanitizer": "~0.1.2",
