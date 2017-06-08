@@ -97,7 +97,7 @@ define(['../entity/character/player/player', '../entity/entityfactory', 'data/mo
         connect: function() {
 
             var self = this,
-                url = "ws://127.0.0.1:6379";
+                url = "ws://127.0.0.1:8080";
             //144.217.92.76
             this.connection = io(url, {
                 forceNew: true,

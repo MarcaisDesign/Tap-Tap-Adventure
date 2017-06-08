@@ -165,13 +165,13 @@ WS.WebsocketServer = Server.extend({
                         }
 
                         // Default port is 80
-                        var newPort = 80;
+                        var newPort = 8080;
                         if (2 === headerPieces.length) {
                             // We've been given a 2nd value, maybe a port #
                             if ((typeof headerPieces[1] === 'string') && (headerPieces[1].length > 0)) {
                                 // If a usable port value was given, use that instead
                                 var tmpPort = parseInt(headerPieces[1], 10);
-                                if (!isNaN(tmpPort) && (tmpPort > 0) && (tmpPort < 65536)) {
+                                if (!isNaN(tmpPort) && (tmpPort > 0) && (tmpPort < 8080)) {
                                     newPort = tmpPort;
                                 }
                             }
