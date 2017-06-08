@@ -1,6 +1,6 @@
 {
-  "port": 1800,
-  "ip": "0.0.0.0",
+  "port": 8080,
+  "ip": "127.0.0.1",
   "debug_level": "debug",
   "nb_players_per_world": 1000,
   "nb_worlds": 1,
@@ -11,7 +11,7 @@
   "redis_host": "127.0.0.1",
   "memcached_host": "127.0.0.1",
   "memcached_port": 11211,
-  "game_servers": [{"server": "0.0.0.0", "name": "TTA1"}],
+  "game_servers": [{"server": "127.0.0.1", "name": "TTA1"}],
   "server_name" : "TTA1",
   "world_id": 1,
   "database": "redis",
