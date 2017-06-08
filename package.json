@@ -13,6 +13,7 @@
     "imagemin": "*",
     "jquery": "*",
     "log": "~1.4.0",
+    "make": "^0.8.1",
     "memcache": "~0.3.0",
     "morgan": "^1.5.0",
     "mysql": "*",
