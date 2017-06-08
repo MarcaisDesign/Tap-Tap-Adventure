@@ -1,5 +1,5 @@
 {
-  "port": 8080,
+  "port": 6379,
   "ip": "127.0.0.1",
   "debug_level": "debug",
   "nb_players_per_world": 1000,

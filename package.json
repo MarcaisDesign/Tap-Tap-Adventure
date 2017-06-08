@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "private": true,
   "dependencies": {
-    "bcrypt": "*",
+    "bcrypt": "^1.0.2",
     "bison": "~1.1.1",
     "body-parser": "*",
     "clean-css": "*",
@@ -17,6 +17,7 @@
     "morgan": "^1.5.0",
     "mysql": "*",
     "ng-annotate": "*",
+    "node-pre-gyp": "^0.6.36",
     "redis": "*",
     "redis-server": "^1.1.0",
     "request": "*",
@@ -25,6 +26,7 @@
     "semver": ">=0",
     "serve-static": "^1.7.1",
     "socket.io": "*",
+    "sudo": "^1.0.3",
     "uglify-js": "*",
     "underscore": "*"
   },
